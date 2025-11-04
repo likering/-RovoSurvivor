@@ -23,7 +23,7 @@ RovoSurvivorは4名チームで共同製作したUnityゲームです。
 
 ## サンプルゲーム
 ぜひゲームを体験してみてください！  
-[RoboSurvivorサンプル](http://)
+[RoboSurvivorサンプル](https://dynarise2001.xyz/kunren/sample/robosurvivor_delta/)
 
 ## ゲームフロー
 * タイトル  
