@@ -4,8 +4,9 @@ RovoSurvivorは4名チームで共同製作したUnityゲームです。
 タイトルの通りロボットを動かす3Dアクションゲームです。  
 エネミーを無限生成するゲートを潰しながら最後にボスを撃破することを目的とした爽快なゲームです。  
   
-![RoboSurvivorタイトル画像](readme_img/robo_readme_1.png)  
-  
+
+<img width="1273" height="755" alt="robo_readme_1" src="https://github.com/user-attachments/assets/a2ac0e92-5483-4fb1-b0d7-91b4b7d21100" />
+
 
 * 制作人数：4名  
 * 制作期間：4日間  
@@ -27,28 +28,33 @@ RovoSurvivorは4名チームで共同製作したUnityゲームです。
 
 ## ゲームフロー
 * タイトル  
-![タイトル画面](readme_img/robo_readme_2.png)  
+<img width="1259" height="751" alt="robo_readme_2" src="https://github.com/user-attachments/assets/ae0d6c74-fa9c-46be-822a-5b7ab188e39b" />
+
   
 * オープニングシーン  
 ストーリーの説明をしながらこれからバトルが始まるという緊張感を高めます  
-![オープニング画面](readme_img/robo_readme_3.png)  
+<img width="1258" height="752" alt="robo_readme_3" src="https://github.com/user-attachments/assets/08a793c2-7c25-4dd3-adca-b0514508e647" />
+
 
 * ゲームステージ（操作パート）  
 街中のエネミーを殲滅します！  
 画面右の指示にしたがって行動をすることになります。  
 まずはエネミーを無限に生成するゲートを叩き、生き残ったエネミーを殲滅するといよいよボスステージです！  
-![ゲームステージ画像](readme_img/robo_readme_4.png)  
+<img width="1271" height="750" alt="robo_readme_4" src="https://github.com/user-attachments/assets/400dec6b-916c-4683-8e78-9aa1f4d94f21" />
+
   
 * ボスステージ（操作パート）  
 ボスステージに移行すると巨大なボスロボとのバトルになります。  
 ボスは距離に応じた複数のアクションをとるので、行動を見極めながら攻撃を叩きこみます。  
 BOSSのライフを0にすることができたらボス撃破！エンディングシーンへと続きます。  
-![ボスステージ画像](readme_img/robo_readme_5.png)  
+
+<img width="1268" height="754" alt="robo_readme_5" src="https://github.com/user-attachments/assets/d51b8536-a0ba-4d6c-83c6-1d969fea46ef" />
 
 * エンディングシーン  
 エンディングでは悲しげなBGMにあわせて、ひとときの休息を得たことを告げるテキストを読み上げます。  
 カメラワークが最後に天を見上げたところでタイトルに戻ります。  
-![エンディング画像](readme_img/robo_readme_6.png)  
+<img width="1260" height="752" alt="robo_readme_6" src="https://github.com/user-attachments/assets/5b6ce4ba-c3cb-454f-a911-a5797433f2a6" />
+
   
 ## 操作方法
 前後・左右　移動：WASDキー、または矢印キー  
@@ -58,8 +64,9 @@ BOSSのライフを0にすることができたらボス撃破！エンディン
 接近攻撃（ブレード）：マウス右  
   
 プレイヤーにもライフがあり、ライフ0でゲームオーバーとなるので注意！  
-![UI説明](readme_img/robo_readme_7.png)  
-  
+
+  <img width="1276" height="764" alt="robo_readme_7" src="https://github.com/user-attachments/assets/e7fc2474-7cfe-476b-baf3-05b010fb14ee" />
+
 ## 共同製作における主な担当パート
 共同製作ではエネミーの制御を担当しました。  
   
@@ -69,9 +76,9 @@ BOSSのライフを0にすることができたらボス撃破！エンディン
 ボスは撃破時に爆発エフェクトがおきるので、倒したという実感をしっかりを感じることができます。  
 また、倒してからエンディングまでにプレイヤーに達成感と余韻を残すことで、もう一度プレイしてみたくなるような手応えを目指しました。  
   
-![爆発](readme_img/robo_readme_8.png)  
 
-```C#
+```C#<img width="1271" height="747" alt="robo_readme_8" src="https://github.com/user-attachments/assets/ec5caa18-bea8-4080-98f8-0e77324941fc" />
+
  //HPがなくなったら削除
 if (bossHP <= 0)
 {
@@ -104,17 +111,19 @@ IEnumerator BossDestroy()
 それぞれの担当箇所をGitHubを活用してマージし、当日デバッグに回れるメンバーでデバッグプレイしてプロトタイプへの評価を行いました。  
 この評価に関してチームミーティングを行い、改善点と改善方法を定め残りの2日間で調整を行うことでブラッシュアップできました。  
   
-![デバッグ評価](readme_img/team_review_d.png)  
-  
+<img width="945" height="5361" alt="team_review_d" src="https://github.com/user-attachments/assets/d8ab669f-34cc-46f2-beab-560dfe0d3fba" />
+
 ## GitHub上でのマージ作業を意識して担当範囲に最新の注意
 スピードが要求される制作期間において、マージ作業で大きなトラブルを生まないようチームの取り決めを忠実に順守しました。  
 GitHubのIssuesを通じて進捗や問題点については随時チームへの報告や問題提起を行っています。
-![issuesにおける情報共有](readme_img/team_issues_d.png)  
+<img width="1364" height="843" alt="team_issues_d" src="https://github.com/user-attachments/assets/b1f7d081-4d3c-42ce-8204-e42ac2675fdc" />
+
   
 SourceTreeでブランチを分けてコンクリフト衝突がおこらないよう細心の注意を払いました。  
 また定期的なコミットを通してバックアップも万全にしました。  
-![SourceTreeの様子](readme_img/team_sourcetree_d.png)  
-  
+<img width="1240" height="893" alt="team_sourcetree_d" src="https://github.com/user-attachments/assets/b8f2235f-fc91-4765-8b3a-2545e6cbfc01" />
+
+
 ## 共同開発に関する工夫
 ### 仕様から反れていないかの確認作業
 チームの打ち合わせで大体の方向性・仕様はあったものの、細かい部分は自身の考えに委ねられる環境でした。  
