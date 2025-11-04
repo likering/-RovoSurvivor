@@ -154,4 +154,5 @@ SourceTreeでブランチを分けてコンクリフト衝突がおこらない�
 調べたところ、いくつかの方法のうちエネミーのルーティングを行うのが一番自然だと感じましたので挑戦してみます。  
 [参考サイト：Unity入門の森/移動経路の構築とOnDrawGizmosによる移動経路の可視化](https://feynman.co.jp/unityforest/game-create-lesson/tower-defense-game/enemy-route/)
   
-![ヘリのイメージ映像](readme_img/future_image.png)  
+<img width="1024" height="1024" alt="future_image" src="https://github.com/user-attachments/assets/226f07cb-c7e5-4eed-8011-f044560ecd6c" />
+
